@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>The night</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="robots" content="index" />
+    <meta name="Description" content="Tasio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="aland Mariwan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aland" />
+    <meta name="theme-color" content="#fff">
+    <meta name="author" content="Aland Mariwan">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="The night">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="icon" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="apple-touch-startup-image" sizes="180x180" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="apple-touch-icon" type="image/png" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="//aland-mariwan.de/src/images/logo.png">
+    <link rel="mask-icon" type="" href="//aland-mariwan.de/src/images/logo.png" color="#111">
+    <!--=============== css  ===============-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+    <!--=============== google  ===============-->
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="//firebaseremoteconfig.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//firebaseinstallations.googleapis.com" crossorigin>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDBX6RGB8P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FDBX6RGB8P');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NZ734CJ');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
+    <canvas id="canvas" width="1400" height="1000"></canvas>
+    <nav class="tools-bar">
+        <div class="button button-clear" data-clear=""></div>
+    </nav>
+    <nav class="thickness-bar">
+        <div class="thickness active" data-thickness="4"></div>
+        <div class="thickness" data-thickness="12"></div>
+        <div class="thickness" data-thickness="24"></div>
+        <div class="thickness" data-thickness="48"></div>
+        <div class="thickness" data-thickness="128"></div>
+    </nav>
+    <nav class="color-bar">
+        <div class="color active" data-color="#9b59b6"></div>
+        <div class="color" data-color="#3498db"></div>
+        <div class="color" data-color="#2ecc71"></div>
+        <div class="color" data-color="#1abc9c"></div>
+        <div class="color" data-color="#f1c40f"></div>
+        <div class="color" data-color="#e67e22"></div>
+        <div class="color" data-color="#e67g22"></div>
+        <div class="color" data-color="#a47352"></div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
